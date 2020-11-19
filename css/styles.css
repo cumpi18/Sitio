@@ -10125,6 +10125,17 @@ header.masthead {
   background-position: left left;
   background-size: cover;
 }
+header.mastheadgamer {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/fondositecumpigamer.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: left left;
+  background-size: cover;
+}
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -10133,7 +10144,24 @@ header.masthead .masthead-subheading {
   text-align: left;
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+header.mastheadgamer .mastheadgamer-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  text-align: left;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 header.masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  margin-left: 55px;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.mastheadgamer .mastheadgamer-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
@@ -10161,6 +10189,25 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+@media (min-width: 768px) {
+  header.mastheadgamer {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+  header.mastheadgamer .mastheadgamer-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.mastheadgamer .mastheadgamer-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
